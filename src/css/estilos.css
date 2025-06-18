@@ -5,38 +5,44 @@
 }
 body{
     background-color: #f5d04e;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 100vh;           /* Altura total da tela */
+    margin: 0;
 }
 .postagem{
-    width: 400px;
-    height: 500;
+    width: 350px;
+    height: 470px;
     padding: 2rem;
     margin: auto;
     border: 1px solid black;
     box-shadow: 8px 8px 0px #000; 
     border-radius: 10px;
     background-color: #ffffff;
+    justify-content: center;
 }
 .foto{
-    width: 350px;
+    width: 270px;
     border-radius: 10px;
     margin-bottom: 0,5rem;
    
 }
 .aprendendo{
     background-color: #f5d04e;
-    padding: 0.8px;
+    padding: 0.5px;
     width: 100px;
     text-align: center;
     border-radius: 5px;
-    margin: 1rem 0 1rem 0;
+    margin: 0.5rem 0 1rem 0;
     font-size: 13px;
     margin-bottom: 1rem;
 }
 .postagem.data-publicacao{
     font-weight: normal;
-    font-size: 13px;
+    font-size: 8px;
     font-style: italic;
-    padding: 2px;
+    padding: 1px;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
@@ -46,21 +52,21 @@ body{
   background-color: #ffffff;
   display: flex;
   direction: ltr;
-  padding: 4px;
-  margin: 2rem 0 0 0;
+  padding: 2px;
+  margin: 1rem 0 0 0;
   font-size: 13px;
   align-items: center; 
   gap: 10px;
   
 }
 .perfil img{
-    width: 30px;
+    width: 20px;
     height: auto;
 }
 .perfil h3{
     margin: 0; 
     line-height: 1; 
-    font-size: 13px;
+    font-size: 10px;
 }
  h2{
     white-space: nowrap;
@@ -75,8 +81,14 @@ a{
     font-weight: bold;         
     text-decoration: none; 
     color: #000;
-    font-size: 13px;
+    font-size: 10px;
+    cursor: pointer;
     
+    
+    
+}
+a:hover{
+    color: #f5d04e;
 }
 p{
     text-decoration: none;
